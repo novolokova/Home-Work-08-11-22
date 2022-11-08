@@ -1,6 +1,6 @@
 // 1) Якщо значення змінної number позитивне або 0
 //- виводимо ''positive", інакше - "negative"
-const namber = 0;
+const namber = -55;
 
 if (namber >= 0) {
   console.log("Positive");
@@ -26,9 +26,10 @@ if (num1 > num2) {
 //   3) Якщо значення змінної кратно(тобто ділеться без остачі)
 //на 7 і одночасно кратна 3 - виводимо "you win!", інакше - "you loose"
 
-let number = 3;
-
-if (number % 7 === 0 && number % 3 === 0) {
+let number = 47;
+const multipleOfSeven = 7;
+const multipleOfThree = 3;
+if (number % multipleOfSeven === 0 && number % multipleOfThree === 0) {
   console.log("you win!");
 } else {
   console.log("you loose");
