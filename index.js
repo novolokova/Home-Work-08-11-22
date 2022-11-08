@@ -28,7 +28,7 @@ if (num1 > num2) {
 
 let number = 3;
 
-if (number % 7 === 0 || number % 3 === 0) {
+if (number % 7 === 0 && number % 3 === 0) {
   console.log("you win!");
 } else {
   console.log("you loose");
